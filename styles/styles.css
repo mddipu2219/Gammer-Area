@@ -1,0 +1,83 @@
+body {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 100px 50px 100px;
+}
+.gamer {
+  display: inline-flex;
+  gap: 30px;
+}
+.gamer img {
+  width: 30px;
+  height: 20px;
+  padding-top: 30px;
+}
+.G {
+  color: pink;
+}
+.nav-tittle {
+  font-size: 30px;
+  font-weight: 700;
+}
+.home a img {
+  width: 17px;
+  height: 10px;
+}
+.nav-container .home {
+  display: flex;
+  gap: 15px;
+  font-style: none;
+}
+.home .follow {
+  background-color: lightgray;
+  padding: 5px;
+  gap: 5px;
+}
+/* banner */
+
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.banner-content {
+  padding-top: 100px;
+  width: 50%;
+}
+.banner-img {
+  height: 720px;
+  width: 685px;
+}
+.goat {
+  font-size: 60px;
+  font-weight: 800;
+  color: rgba(161, 10, 129, 0.89);
+}
+.tittle {
+  font-size: 30px;
+}
+.btn-primary {
+  color: white;
+  background-color: pink;
+  border-radius: 10px;
+  padding: 20px;
+  border: none;
+  margin-right: 30px;
+}
+.btn-secondary {
+  color: white;
+  background-color: rgb(19, 157, 221);
+  border-radius: 10px;
+  padding: 15px;
+  border: none;
+}
+.description {
+  color: gray;
+}
