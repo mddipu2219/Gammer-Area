@@ -81,6 +81,32 @@ body {
 .description {
   color: gray;
 }
+/* play section */
+.play-instantly {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-top: 50px;
+  width: 50%;
+  gap: 100px;
+}
+.play-content {
+  padding: 50px;
+}
+.play {
+  color: palevioletred;
+}
+.play-tittle {
+  font-size: 35px;
+  font-weight: 700;
+}
+.talking-angel img {
+  position: relative;
+  bottom: 250px;
+}
+.play-img .main-img {
+  margin-left: 90px;
+}
 /* mobile veiw */
 @media screen and (max-width: 576px) {
   .nav-container,
