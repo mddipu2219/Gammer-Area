@@ -85,27 +85,90 @@ body {
 .play-instantly {
   display: flex;
   justify-content: space-between;
-  margin-left: 150px;
+  margin-left: 100px;
   margin-top: 50px;
-  width: 50%;
-  gap: 100px;
+  margin-right: 100px;
+  gap: 50px;
 }
 .play-content {
-  padding: 50px;
+  padding-top: 80px;
+  width: 50%;
 }
 .play {
   color: palevioletred;
 }
 .play-tittle {
-  font-size: 35px;
-  font-weight: 700;
+  font-size: 40px;
+  font-weight: 600;
 }
 .talking-angel img {
   position: relative;
-  bottom: 250px;
+  bottom: 300px;
 }
 .play-img .main-img {
-  margin-left: 90px;
+  margin-left: 120px;
+}
+/*  */
+.player-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: space-evenly;
+  margin: 0px 100px 50px 100px;
+  gap: 50px;
+  padding: 20px;
+  border-radius: 15px;
+  align-items: center;
+  text-align: center;
+}
+.player-content:hover {
+  background-color: lightgray;
+  color: red;
+}
+/* online games */
+.online-games-container {
+  text-align: center;
+  margin: 0px 100px 100px 50px;
+}
+.online-games {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.Funny {
+  color: blueviolet;
+}
+/* footer */
+.footer-container {
+  background-color: rgb(3, 3, 36);
+  text-align: center;
+  color: gray;
+  padding: 50px;
+}
+.footer-para {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 350px;
+}
+.footer-gamer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  padding-left: 500px;
+  margin-top: 30px;
+}
+.footer-icon {
+  display: flex;
+  border-radius: 50%;
+  gap: 30px;
+  padding-left: 500px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.footer-icon img {
+  height: 25px;
+  width: 20px;
 }
 /* mobile veiw */
 @media screen and (max-width: 576px) {
@@ -118,15 +181,24 @@ body {
   .gamer {
     margin-left: 250px;
   }
-  .banner-container {
+  .banner-container,
+  .play-instantly {
     flex-direction: column-reverse;
     margin: 0px;
     text-align: center;
     margin-left: 80px;
+    margin-top: 40px;
   }
-  .banner-content {
+  .play-instantly {
+    gap: 0px;
+  }
+  .banner-content,
+  .play-content {
     padding: 10px;
-    width: 100%;
+    width: 80%;
     margin-left: 200px;
+  }
+  .play-content {
+    padding-top: 0px;
   }
 }
