@@ -121,8 +121,10 @@ body {
   text-align: center;
 }
 .player-content:hover {
-  background-color: lightgray;
-  color: red;
+  background-color: white;
+  color: rgb(165, 103, 113);
+  border: 2px solid rgb(163, 110, 119);
+  border-radius: 20px;
 }
 /* online games */
 .online-games-container {
@@ -133,6 +135,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   gap: 20px;
+  margin-top: 80px;
 }
 .Funny {
   color: blueviolet;
