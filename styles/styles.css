@@ -81,3 +81,26 @@ body {
 .description {
   color: gray;
 }
+/* mobile veiw */
+@media screen and (max-width: 576px) {
+  .nav-container,
+  .nav-container .home {
+    flex-direction: column;
+    text-align: center;
+    margin-left: 250px;
+  }
+  .gamer {
+    margin-left: 250px;
+  }
+  .banner-container {
+    flex-direction: column-reverse;
+    margin: 0px;
+    text-align: center;
+    margin-left: 80px;
+  }
+  .banner-content {
+    padding: 10px;
+    width: 100%;
+    margin-left: 200px;
+  }
+}
